@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: shopping-center-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git.oschina.net/itmuch/spring-cloud-config-repo.git
+          username:
+          password:

@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="283f01dc-3f43-4578-a205-b2bb2cf69546" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/StrUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/src/main/java/com/shopping_center/config/ShoppingCenterConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-config/src/test/java/com/shopping_center/config/ShoppingCenterConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-eureka/src/main/java/com/shopping_center/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/MemberApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/dto/RegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/BinaryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/IMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/resources/mapper/member/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/member/service/impl/MemberServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/user/MemberApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/ShoppingCenterZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/common/FilterError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/common/FilterPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/common/FilterPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/test/java/com/shopping_center/zuul/ShoppingCenterZuulApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-server-config/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-server-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-config/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-user/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-common/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-center-member/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/shopping_center$UserApplication.ic" NAME="UserApplication Coverage Results" MODIFIED="1563186516503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.shopping_center.user.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="155" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url</find>
+      <find>spring-boot-starter-jdbc</find>
+      <find>lom</find>
+      <find>com.shopping_center.user.dao</find>
+      <find>autoconfigure</find>
+      <find>selectByPrimaryKey</find>
+      <find>mybatis</find>
+      <find>swagg</find>
+      <find>swagger2-spring-boot-starter</find>
+      <find>circulation</find>
+      <find>queryMenu</find>
+      <find>jedis</find>
+      <find>redis</find>
+      <find>SimpleDateFormat</find>
+      <find>mysql-conne</find>
+      <find>准备</find>
+      <find>freemarker</find>
+      <find>Base</find>
+      <find>b</find>
+      <find>bao</find>
+      <find>como</find>
+      <find>renren_security</find>
+      <find>resource</find>
+      <find>swagger</find>
+      <find>sys_user</find>
+      <find>user</find>
+      <find>member</find>
+      <find>enableSelectByPrimaryKey</find>
+      <find>phone</find>
+      <find>convert</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\shopping-center\shopping-center-user</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/common/config/XssFilter.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/bean/dto/UserDTO.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/common/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/common/Result.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/bean/vo/UserDTO.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/bean/vo/UserVO.java" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-center-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/common/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/shopping-center-user/src/main/java/com/shopping_center/user/entity/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baomidou/ant/shopping/service/IMemberService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baomidou/ant/shopping/entity/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baomidou/ant/shopping/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baomidou/ant/shopping/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/dao/MemberMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/UserApplication.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/mapper/MemberMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/mapper/xml/MemberMapper.xml" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/shopping/MemberMapper.xml" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/member/service/impl/MemberServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/PasswordHelper.java" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/StrUtil.java" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/JWTUtil.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-center-common/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/enums/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/Result.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/UserVO.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/MemberVO.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/dto/RegisterDTO.java" />
+        <option value="$PROJECT_DIR$/shopping-center-eureka/src/main/java/com/shopping_center/eureka/EurekaApplication.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/entity/Member.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/IMemberService.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/BinaryNode.java" />
+        <option value="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/MemberApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopping-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568267526719" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/git" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.shopping_center.member.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shopping_center.user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\shopping-center\shopping-center-member\src\main\resources\mapper" />
+      <recent name="E:\shopping-center\shopping-center-member\src\main\java\com\shopping_center\member\mapper\xml" />
+      <recent name="E:\shopping-center\shopping-center-user\src\main\java\com\shopping_center\user\entity" />
+      <recent name="E:\shopping-center\shopping-center-common\src\main\resources" />
+      <recent name="E:\shopping-center\shopping-center-user\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shopping_center.enums" />
+      <recent name="com.shopping_center.utils" />
+      <recent name="com.shopping_center" />
+      <recent name="com.shopping_center.member.service.impl" />
+      <recent name="com.shopping_center.member.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\shopping-center\shopping-center-member\src\main\resources\mapper\member" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MemberApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shopping_center.CodeGenerator" />
+      <module name="shopping-center-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping_center.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping-center-member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping_center.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopping_center.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping_center.user.MemberApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="shopping-center-member" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="shopping-center-member" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-center-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopping_center.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopping-center-member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping_center.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopping_center.member.MemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCenterConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-center-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopping_center.config.ShoppingCenterConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCenterZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-center-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopping_center.zuul.ShoppingCenterZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.MemberApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.ShoppingCenterConfigApplication" />
+      <item itemvalue="Spring Boot.ShoppingCenterZuulApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.MemberApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="283f01dc-3f43-4578-a205-b2bb2cf69546" name="Default Changelist" comment="" />
+      <created>1560736192068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560736192068</updated>
+      <workItem from="1560736196405" duration="13670000" />
+      <workItem from="1560754193184" duration="32489000" />
+      <workItem from="1562650241262" duration="9801000" />
+      <workItem from="1562740122276" duration="3698000" />
+      <workItem from="1563154002740" duration="3251000" />
+      <workItem from="1563168009314" duration="1103000" />
+      <workItem from="1563169360502" duration="89754000" />
+      <workItem from="1563846405163" duration="4555000" />
+      <workItem from="1564387520712" duration="8764000" />
+      <workItem from="1564967535625" duration="34582000" />
+      <workItem from="1565675584232" duration="13144000" />
+      <workItem from="1566180607317" duration="11863000" />
+      <workItem from="1566797630938" duration="26271000" />
+      <workItem from="1567214435489" duration="10860000" />
+      <workItem from="1567992151924" duration="7407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MemberApplicationTests_contextLoads - 2019.08.13 at 14h 37m 34s.xml">
+      <configuration name="MemberApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="271212000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.38852814" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.31926408" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49918434" visible="true" weight="0.073027715" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5008157" side_tool="true" weight="0.21055438" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3365801" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.21055438" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/CodeGenerator.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.2/mybatis-plus-generator-3.1.2.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.class</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/MemberController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/MemberController.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/impl/MemberServiceImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/user/MemberApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/member/service/impl/MemberServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/IUserService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/PasswordHelper.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/StrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/JWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/base/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/ApiModelProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/resources/mapper/UserDao.xml" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/entity/UserEntity.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/mapper/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/enums/ResultEnum.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/resources/mapper/member/MemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/UserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/dto/RegisterDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar!/lombok/experimental/Accessors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping_center/member/member/entity/Member.java" />
+    <entry file="file://$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-eureka/src/main/java/com/shopping_center/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/reflection/wrapper/BeanWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar!/lombok/EqualsAndHashCode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#1073#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9585">
+          <caret line="544" selection-start-line="544" selection-end-line="544" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2.jar!/com/baomidou/mybatisplus/core/MybatisDefaultParameterHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/IMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="675" lean-forward="true" selection-start-line="675" selection-end-line="675" />
+          <folding>
+            <element signature="e#20770#20771#0" expanded="true" />
+            <element signature="e#20799#20800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4347">
+          <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/MemberVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/mapper/MemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/MemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="630" column="53" lean-forward="true" selection-start-line="630" selection-start-column="53" selection-end-line="630" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/BinaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shopping-center-server-config:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shopping-center-eureka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
