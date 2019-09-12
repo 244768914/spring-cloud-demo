@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="283f01dc-3f43-4578-a205-b2bb2cf69546" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/JWTUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-common/src/main/java/com/shopping_center/utils/StrUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/src/main/java/com/shopping_center/config/ShoppingCenterConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-config/src/test/java/com/shopping_center/config/ShoppingCenterConfigApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-eureka/src/main/java/com/shopping_center/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/MemberApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/dto/RegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/MemberVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/bean/vo/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/common/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/BinaryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/mapper/MemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/IMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/java/com/shopping_center/member/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/main/resources/mapper/member/MemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/member/service/impl/MemberServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-member/src/test/java/com/shopping_center/user/MemberApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/ShoppingCenterZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/common/FilterError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/common/FilterPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/common/FilterPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/java/com/shopping_center/zuul/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-center-zuul/src/test/java/com/shopping_center/zuul/ShoppingCenterZuulApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="283f01dc-3f43-4578-a205-b2bb2cf69546" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shopping-center-server-config/target/" />
@@ -219,7 +153,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -253,7 +187,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568267526719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568275572912" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/git" />
@@ -455,7 +389,7 @@
       <workItem from="1566180607317" duration="11863000" />
       <workItem from="1566797630938" duration="26271000" />
       <workItem from="1567214435489" duration="10860000" />
-      <workItem from="1567992151924" duration="7407000" />
+      <workItem from="1567992151924" duration="8013000" />
     </task>
     <servers />
   </component>
@@ -465,10 +399,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271212000" />
+    <option name="totallyTimeSpent" value="271818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
