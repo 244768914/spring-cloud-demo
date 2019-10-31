@@ -7,11 +7,11 @@ import com.shopping_center.member.entity.Member;
 import com.shopping_center.member.mapper.MemberMapper;
 import com.shopping_center.member.service.IMemberService;
 import org.apache.commons.codec.digest.DigestUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
-import java.util.Random;
-import java.util.UUID;
+import javax.annotation.PostConstruct;
+import java.util.*;
 
 @Service
 public class MemberServiceImpl extends ServiceImpl<MemberMapper, Member> implements IMemberService {
@@ -27,8 +27,8 @@ public class MemberServiceImpl extends ServiceImpl<MemberMapper, Member> impleme
 
     @Override
     public MemberVO register(RegisterDTO registerDTO) {
+        MemberVO memberVO = new MemberVO();
         //验证手机验证码
-
         Member member = new Member();
         member.setMobile(registerDTO.getMobile());
         member.setCreateTime(new Date());
@@ -36,6 +36,29 @@ public class MemberServiceImpl extends ServiceImpl<MemberMapper, Member> impleme
         member.setMemberNo(UUID.randomUUID().toString());
         member.setPassword(DigestUtils.sha256Hex(registerDTO.getPassword()));
         this.baseMapper.insert(member);
-        return null;
+        BeanUtils.copyProperties(member,memberVO );
+        return memberVO;
+    }
+
+    @PostConstruct
+    public void visualVM() throws InterruptedException {
+       Map<Integer,Integer> map=new HashMap<>();
+       int i=0;
+        for (int j=0;j<1000;j++) {
+            Thread.sleep(1000);
+            while (i<2000000){
+                i++;
+                try{
+                    map.put(i,i);
+
+                }catch (OutOfMemoryError e){
+                    e.printStackTrace();
+                    break;
+                }
+
+
+            }
+
+        }
     }
 }

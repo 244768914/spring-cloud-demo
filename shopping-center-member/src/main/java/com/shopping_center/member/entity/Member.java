@@ -56,6 +56,10 @@ public class Member  implements Serializable {
      */
     private Integer state;
 
+
+    /**
+     * 会员唯一编号
+     */
     private String memberNo;
 
 

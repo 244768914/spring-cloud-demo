@@ -12,6 +12,8 @@ public class IndexController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
+		System.out.println("=================网关测试=============");
+
 		return "index";
 	}
 

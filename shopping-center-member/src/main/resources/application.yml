@@ -5,13 +5,13 @@ server:
 spring:
   application:
     # 指定注册到eureka server上的服务名称
-    name: shopping-center-user
+    name: shopping-center-member
   profiles:
     active: dev
   redis:
     host: 129.204.75.83
     port: 6379
-    # 密码 没有则可以不填
+    # 密码 没有则可以不填，腾讯云空密码容易被挖矿
     requirePass: 123456
     # 如果使用的jedis 则将lettuce改成jedis即可
     lettuce:
