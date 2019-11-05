@@ -12,6 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.ServletInputStream;
@@ -27,8 +28,9 @@ import java.util.TreeMap;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 请求开始前执行
+ * 请求开始前执行 登录拦截
  */
+@Component
 public class FilterPre extends ZuulFilter {
 
 	private static final Logger logger = LoggerFactory.getLogger(FilterPre.class);
@@ -74,6 +76,8 @@ public class FilterPre extends ZuulFilter {
 		RequestContext ctx = RequestContext.getCurrentContext();
 		HttpServletRequest request = ctx.getRequest();
 		Long userNo = null;
+
+		System.out.println("拦截");
 		/*try {
 			userNo = getUserNoByToken(request);
 		} catch (BaseException e) {
